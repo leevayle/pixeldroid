@@ -1,0 +1,17 @@
+/* 1. Tw cent normal */
+@font-face {
+  font-family: 'tc';
+  src: url('../assets/fonts/TCM_____.TTF') format('truetype');
+  font-weight: normal; 
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 2. Tw cent bold */
+@font-face {
+  font-family: 'tc';
+  src: url('../assets/fonts/TCB_____.TTF') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
