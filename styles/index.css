@@ -1,7 +1,7 @@
 
 
 *{
-    transition: all 0.1s ease-in-out;
+    transition: all 0.2s ease-in-out;
 
 }
 
@@ -24,7 +24,7 @@ body{
 .nav{
     background-color: var(--background-2);
     height: 8.5svh;
-    width: 100svw;
+    width: 100%;
     
 }
 
@@ -132,3 +132,65 @@ body{
 }
 
 
+/* Home */
+.home-bg{
+    width: 100%;
+    height: 43vh;
+    background-image: url(../assets/images/backgrounds/bga.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.homebg-limiter{
+    width: 100%;
+    max-width: 1200px;
+    height: 60%;
+    margin-top: auto;
+}
+
+.home-title{
+    font-family: 'poppins', sans-serif;
+    font-weight: bold;
+    font-size: 31px;
+    color: var(--white);
+}
+
+.home-subtitle{
+    color:var(--white);
+    font-family: 'tc';
+    margin-top: 10px;
+}
+
+.courasel{
+    width: 130px;
+    height: 100px;
+    margin-top: auto;
+    justify-content: space-around;
+    
+}
+
+.courasel-rounded{
+    border-radius: 20px;
+    height: 12px;
+    cursor: pointer;
+}
+
+#courasel1{
+    width: 50px;
+    
+    background-color: var(--accent-2);
+}
+#courasel2{
+    width: 12px;    
+    background-color: var(--accent-1);
+
+}
+#courasel3{
+    width: 12px;
+    background-color: var(--accent-1);
+}
+
+.home-at-a-glance{
+    height: 2000px;
+    width: 100%;
+}

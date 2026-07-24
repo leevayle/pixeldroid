@@ -1,0 +1,29 @@
+/* 1. Standard Properties (Firefox and modern standards) */
+* {
+  scrollbar-width: thin; /* Options: auto, thin, none */
+  scrollbar-color: var(--accent-1) var(--background-1); /* thumb color [space] track color */
+}
+
+/* 2. WebKit Pseudo-elements (Chrome, Edge, Safari) */
+/* The entire scrollbar area */
+::-webkit-scrollbar {
+  width: 1px; /* Width of vertical scrollbar */
+  height: 1px; /* Height of horizontal scrollbar */
+}
+
+/* The background track */
+::-webkit-scrollbar-track {
+  background: var(--background-1); 
+  border-radius: 1px;
+}
+
+/* The draggable handle */
+::-webkit-scrollbar-thumb {
+  background: var(--background-1); 
+  border-radius: 1px;
+}
+
+/* Draggable handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--background-1); 
+}
