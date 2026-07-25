@@ -1,3 +1,5 @@
+/* Designed and developed by Pixeldroid limited pixeldroid@protonmail.com, develop@pixeldroid.com */
+
 .self-center{
     display: flex;
     margin: auto;
@@ -56,4 +58,16 @@
 
 .border{
     border: 1px solid grey;
+}
+
+.max-width{
+    max-width: 1200px;
+}
+
+.poppins{
+    font-family: 'poppins', sans-serif;
+}
+
+.tc{
+    font-family: 'tc', sans-serif;
 }

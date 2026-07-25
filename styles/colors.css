@@ -1,3 +1,5 @@
+/* Colors for pixeldroid */
+/* Designed and developed by Pixeldroid limited pixeldroid@protonmail.com, develop@pixeldroid.com */
 :root{
     --loading-background:#000000b6;
     --background-1: #F4F4F4;
@@ -6,4 +8,6 @@
     --accent-2: #FF1865;
     --nav-font-color: #353535;
     --white: #FFFFFF;
+    --border: #DFDFDF;
+    --faint-text: rgb(116, 116, 116);
 }

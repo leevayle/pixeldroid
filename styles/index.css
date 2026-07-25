@@ -30,7 +30,6 @@ body{
 
 .nav-wrapper{
     width: 100%;
-    max-width: 1200px;
     height: 100%;
     padding-left: 20px;
     padding-right: 20px;
@@ -67,7 +66,6 @@ body{
 }
 
 .nav-link-text{
-    font-family: 'tc', sans-serif;
     font-size: 18px;
     font-weight: bold;
     height: 73%;
@@ -112,7 +110,6 @@ body{
 }
 
 .sendmail-text{
-    font-family: 'tc', sans-serif;
     font-size: 16px;
     
 }
@@ -135,7 +132,7 @@ body{
 /* Home */
 .home-bg{
     width: 100%;
-    height: 43vh;
+    height: 43svh;
     background-image: url(../assets/images/backgrounds/bga.png);
     background-position: center;
     background-size: cover;
@@ -143,13 +140,11 @@ body{
 
 .homebg-limiter{
     width: 100%;
-    max-width: 1200px;
     height: 60%;
     margin-top: auto;
 }
 
 .home-title{
-    font-family: 'poppins', sans-serif;
     font-weight: bold;
     font-size: 31px;
     color: var(--white);
@@ -157,7 +152,6 @@ body{
 
 .home-subtitle{
     color:var(--white);
-    font-family: 'tc';
     margin-top: 10px;
 }
 
@@ -182,15 +176,53 @@ body{
 }
 #courasel2{
     width: 12px;    
-    background-color: var(--accent-1);
+    background-color: var(--background-1);
 
 }
 #courasel3{
     width: 12px;
-    background-color: var(--accent-1);
+    background-color: var(--background-1);
 }
 
 .home-at-a-glance{
     height: 2000px;
     width: 100%;
+}
+
+.at-a-glance-limiter{
+    color: var(--accent-1);
+    height: 35svh;
+    margin-top: 10px;
+}
+
+.at-a-glance-boxes{
+    padding-top: 10px;
+    justify-content: space-around;
+}
+
+.glance-box{
+    width: 220px;
+    height: 220px;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    background-color: var(--white);
+    flex-direction: column;
+    color: var(--nav-font-color);
+}
+
+.glance-box:hover{
+    border: 1px solid var(--accent-1);
+    background-color: var(--background-1);
+    color: var(--nav-font-color);
+}
+
+.box-icon{
+    height: 30%;
+    margin-top: 20px;
+}
+
+.glance-box h5{
+    margin-top: 0px;
+    color: var(--faint-text);
+    font-weight: normal;
 }
