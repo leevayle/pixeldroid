@@ -35,7 +35,6 @@ body{
     height: 8.5svh;
     width: 100%;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
-    position: fixed;
     z-index: 1;
 }
 
@@ -289,7 +288,7 @@ body{
     height: 90%;
     width: 100%;
     bottom: -120px;
-    background:linear-gradient(to top,rgb(0, 0, 0),black,rgba(0, 0, 0, 0.719),rgba(0, 0, 0, 0.438),rgba(0, 0, 0, 0)) ;
+    background:linear-gradient(to top,rgb(10, 44, 54),black,rgba(0, 0, 0, 0.719),rgba(0, 0, 0, 0.438),rgba(0, 0, 0, 0)) ;
     color: var(--white);
     padding-left: 20px;
     padding-right: 20px;
@@ -393,46 +392,3 @@ body{
 
 }
 
-.footer{
-    background-color: var(--accent-1);
-}
-
-.footer-limiter{
-    height: 200px;
-    width: 100%;
-    padding-top: 100px;
-    color: var(--white);
-    justify-content: space-between;
-}
-
-.footer-links a{
-    text-decoration: none;
-    color: var(--white);
-    margin-top: 10px;
-    font-size: 18px;
-}
-
-.footer-links a:hover{
-    text-decoration: underline;
-}
-
-.footer-bottom-piece{
-    width: 100%;
-    margin-bottom: 20px;
-    color: var(--white);
-    justify-content: space-between;
-}
-
-.footer-socials-icon{
-    width: 35px;
-    border: 1px solid var(--accent-1);
-    padding: 3px;
-    padding-bottom: 1px;
-    cursor: pointer;
-    margin-right: 20px;
-    border-bottom-right-radius: 10px;
-}
-
-.footer-socials-icon:hover{
-    border-bottom: 1px solid var(--white);
-}
