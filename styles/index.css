@@ -315,9 +315,68 @@ body{
     bottom: -40px;
 }
 
+.i-have-a-project{
+    background-color: var(--background-1);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
+.i-have-a-project-limiter{
+    background-color: var(--white);
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+}
 
+.i-have-a-project-image{
+    width: 50%;
+    height: 380px;
+    border-radius: 5px;
+}
 
+.i-have-a-project-content{
+    width: 50%;
+    height: 85%;
+}
 
+.i-have-a-project-content h1{
+    font-weight: bold;
+    color: var(--accent-1);
+    margin-left: 20px;
+}
 
+.i-have-a-project-content h2{
+    font-weight: normal;
+    color: var(--normal-text);
+    margin-left: 20px;
+}
 
+.subtitle2{
+    margin-top: 0px;
+}
+
+.i-have-a-project-button{
+    width: 40%;
+    height: 45px;
+    margin-left: 20px;
+    border: 1px solid var(--white);
+    border-radius: 25px;
+    justify-content: space-between;
+    overflow: hidden;
+    cursor: pointer;
+}
+.i-have-a-project-button:hover{
+    width: 45%;
+    border: 1px solid var(--accent-2);
+}
+
+#h2-button{
+    color: var(--accent-2);
+    font-weight: bold;
+}
+
+.i-have-a-project-svg{
+    width: 45px;
+    height: 45px;
+
+}
