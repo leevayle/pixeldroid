@@ -15,6 +15,7 @@ body{
     backdrop-filter: blur(5px); 
     -webkit-backdrop-filter: blur(5px); 
     top: 0px;
+    z-index: 100;
 }
 
 .loading-content{
@@ -33,7 +34,9 @@ body{
     background-color: var(--background-2);
     height: 8.5svh;
     width: 100%;
-    
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    position: fixed;
+    z-index: 1;
 }
 
 .nav-wrapper{
@@ -273,7 +276,7 @@ body{
 }
 
 .service-box:hover{
-    border: 1px solid var(--accent-2);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .service-box-arrow{
@@ -427,6 +430,7 @@ body{
     padding-bottom: 1px;
     cursor: pointer;
     margin-right: 20px;
+    border-bottom-right-radius: 10px;
 }
 
 .footer-socials-icon:hover{
