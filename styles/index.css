@@ -185,8 +185,8 @@ body{
 }
 
 .home-at-a-glance{
-    height: 2000px;
     width: 100%;
+    padding-bottom: 20px;
 }
 
 .at-a-glance-limiter{
@@ -197,7 +197,7 @@ body{
 
 .at-a-glance-boxes{
     padding-top: 10px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .glance-box{
@@ -226,3 +226,98 @@ body{
     color: var(--faint-text);
     font-weight: normal;
 }
+
+.what-we-do{
+    background-color: var(--white);
+    color: var(--accent-1);
+    padding-top: 10px;
+}
+
+.service-box-alignment{
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.service-box{
+    border-radius: 10px;
+    width: 30%;
+    border: 1px solid var(--white);
+    overflow: hidden;
+}
+
+#service-box-1{
+    background-image: url(../assets/images/backgrounds/serv\ -\ Software\ dev.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#service-box-2{
+    background-image: url(../assets/images/backgrounds/Serv\ -\ Video\ editing.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#service-box-3{
+    background-image: url(../assets/images/backgrounds/Serv\ -\ AI.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.service-box:hover{
+    border: 1px solid var(--accent-2);
+}
+
+.service-box-arrow{
+    width: 40px;
+    top: 10px;
+    right: 10px;
+}
+
+.service-box-gradient{
+    height: 90%;
+    width: 100%;
+    bottom: -120px;
+    background:linear-gradient(to top,rgb(0, 0, 0),black,rgba(0, 0, 0, 0.719),rgba(0, 0, 0, 0.438),rgba(0, 0, 0, 0)) ;
+    color: var(--white);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.service-box-gradient h2{
+    margin-top: 110px;
+}
+
+.service-box-gradient h5{
+    margin-top: -15px;
+    font-weight: normal;
+}
+
+.get-service-button{
+    width: 60%;
+    height: 40px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    border: 1px solid var(--accent-2);
+    color: var(--accent-2);
+    cursor: pointer;
+}
+
+.get-service-button:hover{
+    border: 1px solid var(--accent-2);
+    color: var(--white);
+    background-color: var(--accent-2);
+}
+
+.service-box:hover .service-box-gradient{
+    bottom: -40px;
+}
+
+
+
+
+
+
+

@@ -60,6 +60,10 @@
     border: 1px solid grey;
 }
 
+.full-width{
+    width:100%;
+}
+
 .max-width{
     max-width: 1200px;
 }
