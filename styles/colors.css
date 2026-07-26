@@ -11,4 +11,6 @@
     --border: #DFDFDF;
     --faint-text: rgb(116, 116, 116);
     --normal-text:#353535;
+    --tick-bg:#2E669C;
+    --inactive-bg:#F3F4F6;
 }

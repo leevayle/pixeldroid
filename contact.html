@@ -15,7 +15,7 @@
     <script src="js/loading.js" defer></script>
     
     <link rel="icon" href="assets/images/emblem.png" type="image/x-icon">
-    <title>Pixeldroid</title>
+    <title>Talk to pixeldroid</title>
 
 </head>
 
@@ -30,57 +30,126 @@
         </div>
     </div>
 
-    <!-- Nav with a wrapper to limit max width -->
-    <div class="nav flex">
-        <div class="nav-wrapper self-center max-width">
-            <a href="index.html" class="nav-logo flex self-center-y " aria-label="Pixeldroid home"></a>
-            
-            <div class="nav-links self-center-y tc">
+   
 
-                <div class="nav-link flex self-center-y column ">
-                    <div class="nav-link-text flex self-center-y ">
-                        About Us
-                    </div>
-                    <div class="nav-link-line flex "></div>
+
+    
+
+    <div class="main">
+
+        <div class="main-gradient flex column">
+
+            <div class="main-top flex  column">
+
+                <div class="progress-outer flex max-width self-center-x">
+                    <div class="progress-inner flex" id="progress-bar"></div>
                 </div>
 
-                <div class="nav-link flex self-center-y column">
-                    <div class="nav-link-text flex self-center-y ">
-                        Our Services
-                    </div>
-                    <div class="nav-link-line flex "></div>
-                </div>
+                <div class="progress-tiles max-width flex self-center-x ">
 
-                <div class="nav-link flex self-center-y column">
-                    <div class="nav-link-text flex self-center-y ">
-                        Partnets
-                    </div>
-                    <div class="nav-link-line flex "></div>
-                </div>
+                    <div class="progress-tile-parent flex" id="progress-tile-1">
 
-                <div class="nav-link flex self-center-y column">
-                    <div class="nav-link-text flex self-center-y ">
-                        Careers
+                        <div class="progress-tile-left flex column tc">
+                            <div class="progress-count flex square ">
+                                1
+                            </div>
+                            <h1 >Pick a service</h1>
+                            <h4>Click on one or more services from <br />the list provided below</h4>
+
+                        </div>
+                        <div class="flex progress-tile-right square ">
+                            <svg class="full" xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 24 24" fill="none">
+
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+
+                            <g id="SVGRepo_iconCarrier"> <path d="M4.89163 13.2687L9.16582 17.5427L18.7085 8" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/> </g>
+
+                            </svg>
+
+                        </div>
+                        
                     </div>
-                    <div class="nav-link-line flex "></div>
+                    
+                    <div class="progress-tile-parent flex" id="progress-tile-2">
+
+                        <div class="progress-tile-left flex column tc">
+                            <div class="progress-count flex square progress-count-incomplete ">
+                                2
+                            </div>
+                            <h1 >Fill your contact</h1>
+                            <h4>Provide us the contact that we will reach<br />you later with.</h4>
+
+                        </div>
+                        <div class="flex progress-tile-right square progress-tile-right-incomplete">
+                            <svg class="full" xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 24 24" fill="none">
+
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+
+                            <g id="SVGRepo_iconCarrier"> <g id="Edit / Add_Plus"> <path id="Vector" d="M6 12H12M12 12H18M12 12V18M12 12V6" stroke="#A6A6A6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </g> </g>
+
+                            </svg>
+
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="progress-tile-parent flex" id="progress-tile-3">
+
+                        <div class="progress-tile-left flex column tc">
+                            <div class="progress-count flex square  progress-count-incomplete">
+                                3
+                            </div>
+                            <h1 >Send to us!</h1>
+                            <h4>Complete your request by sending the <br />message to us!</h4>
+
+                        </div>
+                        <div class="flex progress-tile-right square progress-tile-right-incomplete">
+                            <svg class="full" xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 24 24" fill="none">
+
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+
+                            <g id="SVGRepo_iconCarrier"> <g id="Edit / Add_Plus"> <path id="Vector" d="M6 12H12M12 12H18M12 12V18M12 12V6" stroke="#A6A6A6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </g> </g>
+
+                            </svg>
+
+                        </div>
+                        
+                    </div>
+
+
                 </div>
 
             </div>
 
-            <div class="nav-right flex ">
+            <div class="main-bottom flex">
+                <div class="bottom-list-limiter flex self-center-x max-width column">
+                    <div class="pick-services-limiter flex ">
+                        <div class="pick-service flex">
+                            
+                        </div>
+                        <div class="pick-service flex">
 
-                <div class="sendmail flex self-center relative tc">
-                    <div class="sendmail-text">Talk to Us</div>
-                    <div class="sendmail-icon absolute ">
-                        <svg class="full" xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 24 24" fill="none">
+                        </div>
+                    </div>
+                    <div class="pick-services-limiter flex ">
+                        <div class="pick-service flex">
+                            
+                        </div>
+                        <div class="pick-service flex">
 
-                        <g id="SVGRepo_bgCarrier" stroke-width="0"/>
-
-                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
-
-                        <g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M2.8 4C1.86451 4 1.0468 4.46923 0.544325 5.16792C0.20074 5.64567 0 6.23499 0 6.86667V17.1333C0 18.682 1.21964 20 2.8 20H10.2C10.7523 20 11.2 19.5523 11.2 19C11.2 18.4477 10.7523 18 10.2 18H2.8C2.39214 18 2 17.6466 2 17.1333V7.94766L7.77948 14.3096C8.96986 15.6199 11.0301 15.6199 12.2205 14.3096L18 7.94766V12.1333C18 12.6856 18.4477 13.1333 19 13.1333C19.5523 13.1333 20 12.6856 20 12.1333V6.86667C20 6.235 19.7993 5.64567 19.4557 5.16792C18.9532 4.46923 18.1355 4 17.2 4H2.8ZM9.25983 12.9647L2.9327 6H17.0673L10.7402 12.9647C10.3434 13.4015 9.65662 13.4015 9.25983 12.9647ZM18.2929 21.2929C17.9024 21.6834 17.9024 22.3166 18.2929 22.7071C18.6834 23.0976 19.3166 23.0976 19.7071 22.7071L22.7071 19.7071C23.0976 19.3166 23.0976 18.6834 22.7071 18.2929L19.7071 15.2929C19.3166 14.9024 18.6834 14.9024 18.2929 15.2929C17.9024 15.6834 17.9024 16.3166 18.2929 16.7071L19.5858 18H15C14.4477 18 14 18.4477 14 19C14 19.5523 14.4477 20 15 20H19.5858L18.2929 21.2929Z" fill="#fff"/> </g>
-
-                        </svg>
+                        </div>
+                    </div>
+                    <div class="pick-services-limiter flex self-center-x" id="message-box">
+                        
+                        <textarea class="tc" >
+    Optional Custom message . . .
+                        </textarea>
                     </div>
 
                 </div>
@@ -88,13 +157,6 @@
             </div>
 
         </div>
-
-    </div>
-
-
-    
-
-    <div class="main">
 
     </div>
     
